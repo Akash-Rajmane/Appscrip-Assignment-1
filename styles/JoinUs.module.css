@@ -1,0 +1,46 @@
+.join{
+    background-color: #191919;
+    background-image: linear-gradient(#191919, #1c1226);
+    width:100%;
+    height: 700px;
+    position: relative;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    z-index: 12;
+    left: calc(50% - 330px);
+    top: calc(50% - 120px);
+}
+
+.joinbtn{
+    background: linear-gradient(93deg, #B126F2 0%, #7700D4 100%);
+    border-radius: 10px;
+    color: #fff;
+    width: 161px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    margin-top: 25px;
+}
+
+.txt{
+    color: #89759cb3;
+    font-size: 20px;
+}
+
+.title{
+    color: #CAC4D2;
+    font-size: 50px;
+}
+
+.circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,108 @@
+.cards{
+    background-color: #121212;
+}
+
+.txt{
+    font-size: 40px;
+    color: #d9d9d9;
+    text-align: center;
+    padding: 74px;
+    padding-bottom: 80px;
+}
+
+.cardbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card1{
+    background-color: #191919;
+    background-image: linear-gradient(#191919, #1c1226);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    height: 500px;
+}
+
+.card1 h3, .card2 h3{
+    color: #CAC4D2;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.card1 p, .card2 p{
+    color: #BA94DF;
+    font-size: 18px;
+    margin: 15px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box1{
+    width: 130px;
+    height: 245px;
+    background-color: #150f1b;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    width: 130px;
+    height: 245px;
+    background-color: #150f1b;
+    border-radius: 8px;
+}
+
+.box p{
+    font-size: 10px;
+    margin-left: 15px;
+    color: #fff;
+
+}
+
+.data{
+    float: left;
+    font-size: 10px;
+    color: #fff;
+    margin-left: 15px;
+}
+.star{
+    float: right;
+    font-size: 10px;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.card2{
+    background-color: #191919;
+    background-image: linear-gradient(#191919, #1c1226);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    height: 500px;
+}
+
+.smcardbox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}

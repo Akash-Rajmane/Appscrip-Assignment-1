@@ -1,0 +1,157 @@
+.hero{
+    display: block;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(117,38,242,1) 35%, rgba(200,38,242,1) 100%);
+    z-index: 0;
+}
+
+.wave2{
+    float: right;
+    z-index: 1;
+}
+
+.wave1{
+    z-index: 1;
+}
+
+.content{
+    position: absolute;
+    left: 10%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.content h1{
+    font-size: 60px;
+    color: #CAC4D2;
+}
+
+.content p{
+    color: #C2A9D9;
+    font-size: 24px;
+}
+
+.form{
+    position: absolute;
+    z-index: 10;
+    right: 10%;
+    top: 230px;
+    border-radius: 12px;
+    border: 2px solid #7526F2;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(18, 18, 18, 0.5);
+}
+
+.gbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 260px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #1976D2;
+    color: #fff;
+    border: none;
+    margin-top: 25px;
+}
+
+.inputbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.inputbox input{
+    width: 120px;
+}
+
+.inp{
+    border: 1px solid #3D3549;
+    border-radius: 6px;
+    height: 40px;
+    background-color: transparent;
+    padding-left: 10px;
+}
+
+.inp::placeholder{
+    color: #fff;
+}
+
+.line1{
+    border: 1px solid#2d2d2d;
+    width: 260px;
+    margin-top: 15px;
+}
+
+.lginp{
+    width: 270px;
+    margin-top: 15px;
+}
+
+.para{
+    color: #8971A0;
+    font-size: 12px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.btn{
+    background-color: #7426F2;
+    color: #fff;
+    border-radius: 6px;
+    height: 40px;
+    width: 260px;
+    border: none;
+}
+
+.gradbtn{
+    color: #fff;
+    border-radius: 6px;
+    height: 40px;
+    width: 260px;
+    border: none;
+    background: linear-gradient(91deg, #7526F2 0%, #C826F2 100%);
+}
+
+.smpara{
+    color: #8971A0;
+    font-size: 10px;
+    margin-top: 8px;
+    margin-right: 120px;
+}
+
+.smpara span{
+    color:#7526F2;
+}
+
+.linebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.line2{
+    border: 1px solid#2d2d2d;
+    width: 110px;   
+}
+
+.linebox span{
+    color: #484848;
+    font-size: 14px;
+}
